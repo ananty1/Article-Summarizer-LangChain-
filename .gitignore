@@ -1,0 +1,5 @@
+*.env
+.env
+Myenv
+Myenv/
+.ipynb_checkpoints
