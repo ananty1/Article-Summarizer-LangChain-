@@ -12,9 +12,7 @@ from langchain_cohere import CohereRerank
 from langchain_community.llms import Cohere
 from langchain.chains import RetrievalQA
 
-from dotenv import load_dotenv
-
-load_dotenv()
+cohere_api_key = st.secrets["COHERE_API_KEY"]
 
 # Custom CSS
 st.markdown(
@@ -106,7 +104,7 @@ if process_url_clicked:
     docs = text_splitter.split_documents(data)
 
     retriever = FAISS.from_documents(
-        docs, CohereEmbeddings(model="embed-english-v3.0")
+        docs, CohereEmbeddings(model="embed-english-v3.0",api_key=cohere_api_key)
     ).as_retriever(search_kwargs={"k": 2})
 
 
