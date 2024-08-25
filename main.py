@@ -104,7 +104,7 @@ if process_url_clicked:
     docs = text_splitter.split_documents(data)
 
     retriever = FAISS.from_documents(
-        docs, CohereEmbeddings(model="embed-english-v3.0",api_key=cohere_api_key)
+        docs, CohereEmbeddings(model="embed-english-v3.0")
     ).as_retriever(search_kwargs={"k": 2})
 
 
