@@ -3,3 +3,5 @@ unstructured
 libmagic 
 python-magic
 langchain-cohere
+tiktoken
+faiss-cpu
