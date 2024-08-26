@@ -148,3 +148,24 @@ if query:
 if st.sidebar.button("Quit"):
     st.session_state.compression_retriever = None
     st.sidebar.text("Retriever cleared. Session ended.")
+
+
+st.markdown(
+    """
+    ## How to Use
+
+    1. **Enter URLs**: Use the sidebar to input up to three URLs of news articles you want to summarize.
+    2. **Process URLs**: Click the "Process URLs" button to start the data processing. This will:
+       - Load and parse the articles from the provided URLs.
+       - Split the text into manageable chunks.
+       - Create embeddings and build a retriever for querying.
+    3. **Ask Questions**: Once the URLs are processed, enter your question in the "Question" field and hit Enter to get a summary of the articles relevant to your query.
+    4. **View Results**: The summary will be displayed below the question input field.
+
+    **Note**: Make sure to process the URLs before asking questions. If you try to query without processing, you will receive an error.
+
+    ## Documentation
+
+    For more information on how the summarizer works, refer to the official [Langchain Documentation](https://python.langchain.com/v0.2/docs/integrations/retrievers/cohere/) and the [Cohere Documentation](https://cohere.ai/). These resources provide detailed explanations of the models and techniques used in this application.
+    """
+)
