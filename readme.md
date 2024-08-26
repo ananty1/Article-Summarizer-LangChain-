@@ -1,20 +1,14 @@
 # Article Summarizer
 
 Welcome to the Article Summarizer! This project leverages the power of Cohere embeddings and the LangChain framework to provide summarized insights from articles. The application is built using Streamlit, allowing for an interactive and user-friendly experience.
-
-## Table of Contents
-
-- [Article Summarizer](#article-summarizer)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Technologies Used](#technologies-used)
-  - [Project Structure](#project-structure)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Contact](#contact)
+<div>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/LangChain-0091D5?style=for-the-badge&logo=python&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Cohere-6B8E23?style=for-the-badge&logo=python&logoColor=white" alt="Cohere" />
+  <img src="https://img.shields.io/badge/FAISS-0033A0?style=for-the-badge&logo=python&logoColor=white" alt="FAISS" />
+  <img src="https://img.shields.io/badge/dotenv-11A1F7?style=for-the-badge&logo=python&logoColor=white" alt="dotenv" />
+</div>
 
 ## Introduction
 
@@ -22,11 +16,12 @@ The Article Summarizer is designed to help users quickly obtain summaries and in
 
 ## Features
 
-- **URL-based Content Retrieval:** Input multiple article URLs for processing.
-- **Text Splitting:** Automatically splits long articles into smaller, manageable chunks for better analysis.
-- **Contextual Compression:** Uses Cohere's reranking model to compress and retrieve relevant content.
-- **Interactive Query Interface:** Users can ask questions related to the articles and receive concise, relevant answers.
-- **Session Persistence:** Maintains state across queries to provide a smooth user experience.
+- **🔗 URL-based Content Retrieval:** Input multiple article URLs for processing.
+- **✂️ Text Splitting:** Automatically splits long articles into smaller, manageable chunks for better analysis.
+- **🔍 Contextual Compression:** Uses Cohere's reranking model to compress and retrieve relevant content.
+- **🗨️ Interactive Query Interface:** Users can ask questions related to the articles and receive concise, relevant answers.
+- **💾 Session Persistence:** Maintains state across queries to provide a smooth user experience.
+
 
 ## Installation
 
@@ -69,23 +64,15 @@ Open the application in your browser.
 - Enter a query in the main interface to retrieve summarized insights based on the processed articles.
 - Optionally, click "Quit" to clear the session state and end the session.
 
-## Technologies Used
-
-- **Python:** The core programming language for the project.
-- **Streamlit:** Used for building the interactive web interface.
-- **LangChain:** Provides the framework for handling document loading, splitting, and retrieval.
-- **Cohere:** Powers the embeddings and reranking models for text processing and retrieval.
-- **FAISS:** Utilized for vector storage and similarity search.
-- **dotenv:** Manages environment variables securely.
 
 ## Project Structure
 news-article-summarizer/
-│
-├── main.py                    # Main application script
-├── requirements.txt           # Python dependencies
-├── .env                       # Environment variables (not included in the repo)
-├── README.md                  # Project documentation
-└── other necessary files...
+    \
+      ├── main.py                    # Main application script \
+      ├── requirements.txt           # Python dependencies \
+      ├── .env                       # Environment variables (not included in the repo)\
+      ├── README.md                  # Project documentation\
+      └── other necessary files...
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements, feel free to fork the repository, create a new branch, and submit a pull request.
 
