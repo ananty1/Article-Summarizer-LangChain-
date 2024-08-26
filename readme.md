@@ -1,6 +1,14 @@
 # Article Summarizer
 
 Welcome to the Article Summarizer! This project leverages the power of Cohere embeddings and the LangChain framework to provide summarized insights from articles. The application is built using Streamlit, allowing for an interactive and user-friendly experience.
+<div>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/LangChain-0091D5?style=for-the-badge&logo=python&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Cohere-6B8E23?style=for-the-badge&logo=python&logoColor=white" alt="Cohere" />
+  <img src="https://img.shields.io/badge/FAISS-0033A0?style=for-the-badge&logo=python&logoColor=white" alt="FAISS" />
+  <img src="https://img.shields.io/badge/dotenv-11A1F7?style=for-the-badge&logo=python&logoColor=white" alt="dotenv" />
+</div>
 
 ## Introduction
 
@@ -55,15 +63,6 @@ Open the application in your browser.
 - Click "Process URLs" to load and analyze the content.
 - Enter a query in the main interface to retrieve summarized insights based on the processed articles.
 - Optionally, click "Quit" to clear the session state and end the session.
-
-## Technologies Used
-
-- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) The core programming language for the project.
-- ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) Used for building the interactive web interface.
-- ![LangChain](https://img.shields.io/badge/LangChain-0091D5?style=for-the-badge&logo=python&logoColor=white) Provides the framework for handling document loading, splitting, and retrieval.
-- ![Cohere](https://img.shields.io/badge/Cohere-6B8E23?style=for-the-badge&logo=python&logoColor=white) Powers the embeddings and reranking models for text processing and retrieval.
-- ![FAISS](https://img.shields.io/badge/FAISS-0033A0?style=for-the-badge&logo=python&logoColor=white) Utilized for vector storage and similarity search.
-- ![dotenv](https://img.shields.io/badge/dotenv-11A1F7?style=for-the-badge&logo=python&logoColor=white) Manages environment variables securely.
 
 
 ## Project Structure
