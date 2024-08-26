@@ -1,5 +1,4 @@
 # Article Summarizer
-![Alt text](https://raw.githubusercontent.com/ananty1/Article-Summarizer-LangChain-/main/Article-Summarizer-LLM.png)
 
 Welcome to the Article Summarizer! This project leverages the power of Cohere embeddings and the LangChain framework to provide summarized insights from articles. The application is built using Streamlit, allowing for an interactive and user-friendly experience.
 
@@ -88,3 +87,5 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 ## Contact
 For any inquiries or suggestions, please contact ananty@iitbhilai.ac.in.
+
+![Alt text](https://raw.githubusercontent.com/ananty1/Article-Summarizer-LangChain-/main/Article-Summarizer-LLM.png)
