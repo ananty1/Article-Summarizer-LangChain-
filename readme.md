@@ -1,6 +1,8 @@
 # Article Summarizer
+![Alt text](https://raw.githubusercontent.com/ananty1/Article-Summarizer-LangChain-/main/Article-Summarizer-LLM.png)
 
 Welcome to the Article Summarizer! This project leverages the power of Cohere embeddings and the LangChain framework to provide summarized insights from articles. The application is built using Streamlit, allowing for an interactive and user-friendly experience.
+
 <div>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
@@ -73,6 +75,11 @@ news-article-summarizer/
       ├── .env                       # Environment variables (not included in the repo)\
       ├── README.md                  # Project documentation\
       └── other necessary files...
+
+## Documentation
+
+For more details on Cohere integration with LangChain, refer to the [Cohere documentation](https://python.langchain.com/v0.2/docs/integrations/retrievers/cohere/).
+
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements, feel free to fork the repository, create a new branch, and submit a pull request.
 
